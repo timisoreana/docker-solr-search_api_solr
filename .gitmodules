@@ -1,0 +1,4 @@
+[submodule "search_api_solr"]
+	path = search_api_solr
+	url = http://git.drupal.org/project/search_api_solr.git
+	branch = 7.x-1.x
