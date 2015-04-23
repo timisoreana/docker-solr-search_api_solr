@@ -26,11 +26,10 @@ You can also access the Solr web interface by going to `http://ip:port/solr` (e.
 * If you delete a container, it's configuration and data will be deleted along with it! If using this on a production environment, make sure to set up Volumes and/or run containers to back up the data.
 * If you restart your computer or Kitematic, the port assigned to a container might change. If this happens, Search API will complain that it can't connect to the Solr instance. You'll have to go into the Search API server settings and change the port that way, or use [the Search API Override module](https://www.drupal.org/project/search_api_override) to put the settings in settings[.local].php, to make them easier to change:
 
-    // Search API Override module.
-    $conf['search_api_override_mode'] = 'load';
-    $conf['search_api_override_servers'][$server_machine_name]['options'] = array(
-      'host' => '192.168.99.100',
-      'port' => '34567',
-      'path' => '/solr/collection1',
-    );
-
+        // Search API Override module.
+        $conf['search_api_override_mode'] = 'load';
+        $conf['search_api_override_servers'][$server_machine_name]['options'] = array(
+          'host' => '192.168.99.100',
+          'port' => '34567',
+          'path' => '/solr/collection1',
+        );
