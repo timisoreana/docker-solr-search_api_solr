@@ -13,4 +13,6 @@ Solr will be available by the container's IP address. In order to get the IP add
 
 **$CONTAINER_ID** can be gotten after execution this command: `sudo docker ps -a`. Then go to http://ip:port (e.g.: http://172.17.0.2:8983) and use Solr.
 
-Original documentation: https://github.com/mparker17/docker-solr-search_api_solr
+After performing the operations above, two solr cores will be created (d7_collection and d8_collection). They can be used for your drupal projects.
+
+ref: https://github.com/mparker17/docker-solr-search_api_solr
