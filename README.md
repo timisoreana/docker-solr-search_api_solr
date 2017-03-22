@@ -16,3 +16,5 @@ Solr will be available by the container's IP address. In order to get the IP add
 After performing the operations above, two solr cores will be created (d7_collection and d8_collection). They can be used for your drupal projects.
 
 ref: https://github.com/mparker17/docker-solr-search_api_solr
+buuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
